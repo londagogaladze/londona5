@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #101010;
+  display: flex;
+  justify-content: center;
+}
+
+body .body_container {
+  max-width: 1440px;
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 112px;
+  background-color: rgba(2, 2, 2, 1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  margin-left: 114px;
+  gap: 47px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.right-header-nav {
+  display: flex;
+  align-items: center;
+  margin-right: 114px;
+  gap: 40px;
+}
+
+li {
+  color: white;
+}
+
+.header-icon-container {
+  display: flex;
+  gap: 24px;
+}
+
+.header-right-button {
+  background-color: rgba(252, 175, 23, 1);
+  border-radius: 8px;
+  padding: 11px 16px;
+  font-weight: bold;
+}
+
+.img-container {
+  display: flex;
+}
+
+.img-container .banner-img {
+  width: 100%;
+}
+.container {
+  background-color: black;
+}
+
+.content-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: black;
+  margin: 0px 140px;
+}
+.content-1-imgs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-1-header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 80px;
+}
+
+.content-1-btn {
+  margin: auto;
+  button {
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color: orange;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+}
+
+.secondbox h2 {
+  font-weight: 800;
+  font-size: 48px;
+  margin: 0px 600px 40px 140px;
+}
+
+.SBcard1 {
+  width: 860px;
+  height: 520px;
+}
+
+.SBcard1 img {
+  width: 840px;
+  height: 332px;
+  margin: 0px 0px 20px 140px;
+}
+
+.SBh2 {
+  font-size: 48px;
+  color: rgba(246, 246, 246, 1);
+
+  margin-top: 76px;
+}
+
+.SBh4 {
+  width: 540px;
+  height: 48px;
+  font-weight: 500;
+  font-size: 25px;
+  margin: 0px 0px 0px 140px;
+  color: #fff;
+}
+
+.SBp {
+  width: 289px;
+  height: 24px;
+  font-weight: 300;
+  font-size: 14px;
+  color: rgba(121, 121, 121, 1);
+  margin: 0px 0px 20px 140px;
+}
+
+.SBcard2 {
+  width: 260px;
+  height: 224px;
+  margin: -515px 0px 0px 1020px;
+  box-shadow: 22px 2px 5px 5px #020202;
+}
+
+.SBcard2 img {
+  width: 260px;
+  height: 142px;
+}
+
+.SBcard2 h4 {
+  width: 191px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 13px;
+  margin: -10px 57px 0px 12px;
+  color: #fff;
+}
+.SBcard2 p {
+  width: 191px;
+  height: 18px;
+  font-weight: 300;
+  font-size: 11px;
+  margin: 4px 31px 12px 12px;
+  color: rgba(121, 121, 121, 1);
+}
+
+.SBcard3 {
+  width: 260px;
+  height: 224px;
+  margin: 10px 0px 0px 1020px;
+}
+
+.SBcard3 img {
+  width: 260px;
+  height: 142px;
+}
+.SBcard3 h4 {
+  width: 191px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 13px;
+  margin: -20px 57px 0px 12px;
+  color: #fff;
+}
+.SBcard3 p {
+  width: 217px;
+  height: 18px;
+  font-weight: 300;
+  font-size: 11px;
+  margin: 20px 31px 12px 12px;
+  color: rgba(121, 121, 121, 1);
+}
+
+.third-box {
+  background: linear-gradient(135deg, #ff4500, #ffa500);
+  border-radius: 16px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.third-box-left-side {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 100px;
+  p {
+    font-size: 32px;
+    font-weight: 500;
+    color: rgba(2, 2, 2, 1);
+    padding: 0 60px 0 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+.third-box-left-side-logo {
+  display: flex;
+  align-items: center;
+  span {
+    color: rgba(2, 2, 2, 1);
+    font-size: 42px;
+    font-weight: 800;
+  }
+}
+
+.third-box-left-side-btn {
+  display: flex;
+  justify-content: center;
+  button {
+    padding: 20px 75px;
+    font-size: 20px;
+    background-color: orange;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+}
+
+.footer-container {
+  margin-top: 80px;
+  background-color: #000;
+  border-radius: 8px;
+}
+
+.aboutus img {
+  width: 56px;
+  height: 55px;
+  margin: 91px 29px 91px 140px;
+}
+
+.aboutus ul {
+  font-weight: 500;
+  font-size: 16px;
+  list-style: none;
+  display: flex;
+  color: #b1b1b1;
+  margin: -140px 0px 0px 250px;
+}
+
+.footer-li {
+  margin-right: 24px;
+}
+
+.aboutus p {
+  width: 270px;
+  height: 20px;
+  font-weight: 300;
+  font-size: 13px;
+  color: #b1b1b1;
+  margin: 30px 0px 0px 250px;
+}
+
+.contacts {
+  margin: -97px 2px 0px 1000px;
+}
+
+.contacts img {
+  margin-right: 30px;
+}
